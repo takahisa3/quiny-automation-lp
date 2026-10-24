@@ -13,12 +13,12 @@
 <meta property="og:site_name" content="Quiny 自動化・ロボット導入相談">
 <meta property="og:locale" content="ja_JP">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0a1626">
-<meta property="og:image" content="https://automation.quiny.co.jp/assets/img/robowel.jpg">
+<meta name="theme-color" content="#1a5fd0">
+<meta property="og:image" content="https://automation.quiny.co.jp/assets/img/rw-system.jpg">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+JP:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
 <script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">
@@ -105,21 +105,24 @@
 </script>
 
 
-<div class="page-hero">
+<div class="page-hero net">
   <div class="wrap">
     <nav class="crumbs" aria-label="パンくず"><ol><li><a href="/">トップ</a></li><li>自動化の事例</li></ol></nav>
-    <h1 style="margin-top:40px"><span class="en" style="display:block;font-size:.42em;color:var(--orange);letter-spacing:.2em">CASES</span>自動化の事例</h1>
-    <p>お客様の装置は一台ごとに設計しており、個別の内容は公開していません。このページでは、公式サイトやプレスリリースで公開している自動化の例を紹介します。事例は順次追加します。</p>
+    <div class="in">
+      <p class="label en">CASES</p>
+      <h1>自動化の事例</h1>
+      <p>お客様の装置は一台ごとに設計しており、個別の内容は公開していません。このページでは、公式サイトやプレスリリースで公開している自動化の例を紹介します。事例は順次追加します。</p>
+    </div>
   </div>
 </div>
 
 <section id="robowel">
   <div class="wrap case">
-    <div class="ph rv"><img src="/assets/img/robowel.jpg" alt="レーザー自動溶接ロボット。ロボットアームの先端のレーザーヘッドとカメラで、台の上のワークを撮影している" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv"><div class="ph"><img src="/assets/img/rw-system.jpg" alt="レーザー自動溶接ロボット「ロボウェルシリーズ」の全体。青い産業用ロボットと作業台" loading="lazy"></div></div>
     <div class="rv">
       <p class="kicker">CASE 01 ／ 溶接・板金・製缶</p>
       <h2>少量多品種の溶接を、置くだけで。<br>レーザー自動溶接ロボット「ロボウェルシリーズ」</h2>
-      <ul class="feat">
+      <ul class="checks">
         <li>CAD入力が不要</li>
         <li>ティーチングが不要</li>
         <li>専用治具が不要</li>
@@ -138,16 +141,16 @@
   </div>
 </section>
 
-<section id="laser-cutting" class="alt">
+<section id="laser-cutting" class="gray">
   <div class="wrap case rev">
-    <div class="ph rv"><img src="/assets/img/laser-robot.jpg" alt="レーザーカッティング自動機。ロボットにレーザーヘッドが取り付けられている" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv"><div class="ph"><img class="natural" src="/assets/img/laser-cell4.jpg" alt="レーザーカッティング自動機。ロボットが材料を持ち、上のレーザーノズルの下で動かして切断する" loading="lazy" width="960" height="465"></div></div>
     <div class="rv">
       <p class="kicker">CASE 02 ／ 切断・レーザー加工</p>
       <h2>手切りで1個40秒の作業を12秒に。<br>レーザーカッティング自動機</h2>
       <div class="ba">
-        <figure><img src="/assets/img/laser-manual.jpg" alt="はさみで材料を手作業で切っている様子" loading="lazy" width="1200" height="676"><figcaption>手作業<b>40秒</b></figcaption></figure>
+        <figure><img src="/assets/img/laser-hand.jpg" alt="はさみで材料を手作業で切っている様子" loading="lazy" width="600" height="440"><figcaption>手作業<b>40秒</b></figcaption></figure>
         <span class="to">→</span>
-        <figure class="after"><img src="/assets/img/laser-robot.jpg" alt="ロボットとレーザーによる自動切断" loading="lazy" width="1200" height="676"><figcaption>自動機<b>12秒</b></figcaption></figure>
+        <figure class="after"><img src="/assets/img/laser-result.jpg" alt="レーザーで切り抜いたシートと部品。複雑な形でもきれいに切れている" loading="lazy" width="600" height="440"><figcaption>自動機<b>12秒</b></figcaption></figure>
       </div>
       <div class="metric"><span class="from">40秒</span><span class="arrow">→</span><span class="to">12秒</span><small>1個あたりの処理時間（約3分の1）</small></div>
       <table class="spec mt">
@@ -162,13 +165,21 @@
 
 <section id="beer">
   <div class="wrap case">
-    <div class="ph rv"><img src="/assets/img/beer-booth.jpg" alt="ビールサーブマイスターロボットのブースのイメージ図。協働ロボットがグラスにビールを注ぐ" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv">
+      <div class="ph"><img src="/assets/img/beer-sushitech.jpg" alt="SusHi Tech Tokyo 2024のレセプション会場で、協働ロボットがグラスにビールを注ぎ、来場者が見ている様子" loading="lazy" width="1290" height="684"></div>
+      <p class="imgnote">SusHi Tech Tokyo 2024 レセプション（2024年5月15日、東京會舘）</p>
+      <div class="pair">
+        <figure><img src="/assets/img/beer-pour.jpg" alt="熟練者がビールサーバーからグラスにビールを注ぐ手元" loading="lazy" width="1280" height="720"><figcaption>熟練者の注ぎ</figcaption></figure>
+        <figure><img src="/assets/img/beer-booth.jpg" alt="ビールサーブマイスターロボットのブースの3Dイメージ" loading="lazy" width="1200" height="676"><figcaption>ブースの3D設計イメージ</figcaption></figure>
+      </div>
+    </div>
     <div class="rv">
       <p class="kicker">CASE 03 ／ 熟練技能の再現</p>
       <h2>習得に1年以上かかる技を、装置で再現する。<br>ビールサーブマイスターロボット</h2>
       <table class="spec">
         <tr><th>課題</th><td>ビールの注ぎ手は、グラスの選択、リンス、注ぎ、泡の調整、グラスの洗浄までを一連でこなします。熟練者の味を出せるようになるまで1年以上かかります。</td></tr>
         <tr><th>取り組み</th><td>グラスのピックアップから、リンサー、注ぎ、泡足し、泡切り、グラス外面の洗浄、提供までを、熟練者の動きを再現したロボットで行います。</td></tr>
+        <tr><th>展示・披露</th><td>FOOMA JAPAN 2023に出展。SusHi Tech Tokyo 2024のレセプション（2024年5月15日、東京會舘）で来場者にビールを提供しました。</td></tr>
         <tr><th>製造現場との関係</th><td>熟練者の手の動きと判断を分解して装置に落とし込む、という考え方は、職人の技能に頼っている製造工程の自動化にも共通します。</td></tr>
       </table>
       <p class="source">出典：<a href="https://www.quiny.co.jp/works">公式サイト 自動化例</a></p>
@@ -176,7 +187,7 @@
   </div>
 </section>
 
-<section class="alt">
+<section class="gray">
   <div class="wrap read rv" style="text-align:center;margin:0 auto">
     <h2 style="font-size:clamp(22px,3vw,30px);font-weight:900">同じような工程がありますか？</h2>
     <p style="margin-top:12px;color:var(--sub)">事例と同じ装置でなくても、考え方を応用できることがあります。対象物と現在の作業をお知らせいただければ、自動化に向くかどうかからお答えします。</p>
@@ -184,21 +195,17 @@
   </div>
 </section>
 
-<section class="contact" id="contact">
+<section class="contact net" id="contact">
   <div class="wrap">
-    <div>
-      <p class="label en">CONTACT</p>
-      <h2>その工程のこと、<br>聞かせてください。</h2>
-      <p>何を自動化するか決まっていなくても構いません。ヒアリング、現場確認、自動化の概略構想、概算費用のご提示までは無償で対応しています。使える補助金・助成金のご提案もあわせて行います。北陸（石川・富山・福井）を中心に、全国からのご相談をお受けしています。</p>
-    </div>
-    <div class="panel">
-      <a class="btn" href="mailto:info@quiny.co.jp?subject=%E3%80%90%E8%87%AA%E5%8B%95%E5%8C%96%E7%9B%B8%E8%AB%87LP%E3%80%91%E3%81%94%E7%9B%B8%E8%AB%87&body=%E4%BC%9A%E7%A4%BE%E5%90%8D%EF%BC%9A%0A%E6%89%80%E5%9C%A8%E5%9C%B0%EF%BC%88%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%83%BB%E5%B8%82%E7%94%BA%E6%9D%91%EF%BC%89%EF%BC%9A%0A%E3%81%94%E6%8B%85%E5%BD%93%E8%80%85%E5%90%8D%EF%BC%9A%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E2%96%A0%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%97%E3%81%9F%E3%81%84%E4%BD%9C%E6%A5%AD%E3%83%BB%E5%B7%A5%E7%A8%8B%EF%BC%9A%0A%E2%96%A0%E5%AF%BE%E8%B1%A1%E7%89%A9%EF%BC%88%E6%9D%90%E8%B3%AA%E3%83%BB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%BB%E9%87%8D%E3%81%95%E3%81%AA%E3%81%A9%EF%BC%89%EF%BC%9A%0A%E2%96%A01%E6%97%A5%E3%81%AE%E5%87%A6%E7%90%86%E9%87%8F%E3%83%BB%E4%BD%9C%E6%A5%AD%E4%BA%BA%E6%95%B0%EF%BC%88%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E2%96%A0%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%0A%E2%80%BB%E5%8B%95%E7%94%BB%E3%83%BB%E5%86%99%E7%9C%9F%E3%83%BB%E5%9B%B3%E9%9D%A2%E3%81%AF%E3%80%81%E3%81%8A%E6%8C%81%E3%81%A1%E3%81%A7%E3%81%82%E3%82%8C%E3%81%B0%E6%B7%BB%E4%BB%98%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%88%E5%BF%85%E9%A0%88%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%EF%BC%89%E3%80%82%0A">メールで相談する <span class="arr">→</span></a>
-      <span class="mail">宛先：info@quiny.co.jp<br>メールソフトが開き、件名と記入項目が入った状態になります</span>
-      <ul>
-        <li>会社名・所在地・自動化したい作業・困っていることをお知らせください</li>
-        <li>動画・写真・図面は、お持ちであれば添付してください（必須ではありません）</li>
-      </ul>
-    </div>
+    <p class="label">CONTACT</p>
+    <h2>その工程のこと、聞かせてください。</h2>
+    <p>何を自動化するか決まっていなくても構いません。ヒアリング、現場確認、自動化の概略構想、概算費用のご提示までは無償で対応しています。使える補助金・助成金のご提案もあわせて行います。北陸（石川・富山・福井）を中心に、全国からのご相談をお受けしています。</p>
+    <a class="btn" href="mailto:info@quiny.co.jp?subject=%E3%80%90%E8%87%AA%E5%8B%95%E5%8C%96%E7%9B%B8%E8%AB%87LP%E3%80%91%E3%81%94%E7%9B%B8%E8%AB%87&body=%E4%BC%9A%E7%A4%BE%E5%90%8D%EF%BC%9A%0A%E6%89%80%E5%9C%A8%E5%9C%B0%EF%BC%88%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C%E3%83%BB%E5%B8%82%E7%94%BA%E6%9D%91%EF%BC%89%EF%BC%9A%0A%E3%81%94%E6%8B%85%E5%BD%93%E8%80%85%E5%90%8D%EF%BC%9A%0A%E3%81%8A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%88%E4%BB%BB%E6%84%8F%EF%BC%89%EF%BC%9A%0A%0A%E2%96%A0%E8%87%AA%E5%8B%95%E5%8C%96%E3%81%97%E3%81%9F%E3%81%84%E4%BD%9C%E6%A5%AD%E3%83%BB%E5%B7%A5%E7%A8%8B%EF%BC%9A%0A%E2%96%A0%E5%AF%BE%E8%B1%A1%E7%89%A9%EF%BC%88%E6%9D%90%E8%B3%AA%E3%83%BB%E5%A4%A7%E3%81%8D%E3%81%95%E3%83%BB%E9%87%8D%E3%81%95%E3%81%AA%E3%81%A9%EF%BC%89%EF%BC%9A%0A%E2%96%A01%E6%97%A5%E3%81%AE%E5%87%A6%E7%90%86%E9%87%8F%E3%83%BB%E4%BD%9C%E6%A5%AD%E4%BA%BA%E6%95%B0%EF%BC%88%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%EF%BC%89%EF%BC%9A%0A%E2%96%A0%E5%9B%B0%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%EF%BC%9A%0A%0A%E2%80%BB%E5%8B%95%E7%94%BB%E3%83%BB%E5%86%99%E7%9C%9F%E3%83%BB%E5%9B%B3%E9%9D%A2%E3%81%AF%E3%80%81%E3%81%8A%E6%8C%81%E3%81%A1%E3%81%A7%E3%81%82%E3%82%8C%E3%81%B0%E6%B7%BB%E4%BB%98%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%88%E5%BF%85%E9%A0%88%E3%81%A7%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%EF%BC%89%E3%80%82%0A">メールで相談する <span class="arr">→</span></a>
+    <span class="mail">宛先：info@quiny.co.jp（メールソフトが開き、件名と記入項目が入った状態になります）</span>
+    <ul>
+      <li>会社名・所在地・自動化したい作業・困っていることをお知らせください</li>
+      <li>動画・写真・図面は、お持ちであれば添付してください（必須ではありません）</li>
+    </ul>
   </div>
 </section>
 </main>

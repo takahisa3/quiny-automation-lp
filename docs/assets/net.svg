@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#cfe6ff" stop-opacity="1"/><stop offset="1" stop-color="#cfe6ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g stroke="#9cc8ff" stroke-width="1" fill="none" opacity=".55">
+    <path d="M0 470 L160 400 L330 440 L500 330 L690 380 L860 260 L1040 320 L1230 220 L1440 280"/>
+    <path d="M0 230 L150 280 L310 180 L500 330 M690 380 L780 520 L980 470 L1160 560 L1440 500"/>
+    <path d="M160 400 L150 280 M330 440 L310 180 M860 260 L780 520 M1040 320 L980 470 M1230 220 L1160 560"/>
+    <path d="M310 180 L520 120 L690 380 M520 120 L860 260 M1040 320 L1120 90 L1230 220 M1120 90 L1440 120"/>
+    <path d="M0 600 L240 560 L330 440 M240 560 L520 610 L780 520"/>
+  </g>
+  <g fill="#d6ebff">
+    <circle cx="160" cy="400" r="3"/><circle cx="330" cy="440" r="3"/><circle cx="500" cy="330" r="4"/><circle cx="690" cy="380" r="3"/>
+    <circle cx="860" cy="260" r="4"/><circle cx="1040" cy="320" r="3"/><circle cx="1230" cy="220" r="4"/><circle cx="150" cy="280" r="3"/>
+    <circle cx="310" cy="180" r="3"/><circle cx="520" cy="120" r="3"/><circle cx="780" cy="520" r="3"/><circle cx="980" cy="470" r="3"/>
+    <circle cx="1160" cy="560" r="3"/><circle cx="1120" cy="90" r="3"/><circle cx="240" cy="560" r="3"/><circle cx="520" cy="610" r="3"/>
+  </g>
+  <g>
+    <circle cx="500" cy="330" r="22" fill="url(#glow)" opacity=".5"/><circle cx="860" cy="260" r="26" fill="url(#glow)" opacity=".5"/><circle cx="1230" cy="220" r="22" fill="url(#glow)" opacity=".5"/>
+  </g>
+</svg>

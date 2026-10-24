@@ -32,21 +32,24 @@
 </script>
 
 
-<div class="page-hero">
+<div class="page-hero net">
   <div class="wrap">
     <nav class="crumbs" aria-label="パンくず"><ol><li><a href="/">トップ</a></li><li>自動化の事例</li></ol></nav>
-    <h1 style="margin-top:40px"><span class="en" style="display:block;font-size:.42em;color:var(--orange);letter-spacing:.2em">CASES</span>自動化の事例</h1>
-    <p>お客様の装置は一台ごとに設計しており、個別の内容は公開していません。このページでは、公式サイトやプレスリリースで公開している自動化の例を紹介します。事例は順次追加します。</p>
+    <div class="in">
+      <p class="label en">CASES</p>
+      <h1>自動化の事例</h1>
+      <p>お客様の装置は一台ごとに設計しており、個別の内容は公開していません。このページでは、公式サイトやプレスリリースで公開している自動化の例を紹介します。事例は順次追加します。</p>
+    </div>
   </div>
 </div>
 
 <section id="robowel">
   <div class="wrap case">
-    <div class="ph rv"><img src="/assets/img/robowel.jpg" alt="レーザー自動溶接ロボット。ロボットアームの先端のレーザーヘッドとカメラで、台の上のワークを撮影している" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv"><div class="ph"><img src="/assets/img/rw-system.jpg" alt="レーザー自動溶接ロボット「ロボウェルシリーズ」の全体。青い産業用ロボットと作業台" loading="lazy"></div></div>
     <div class="rv">
       <p class="kicker">CASE 01 ／ 溶接・板金・製缶</p>
       <h2>少量多品種の溶接を、置くだけで。<br>レーザー自動溶接ロボット「ロボウェルシリーズ」</h2>
-      <ul class="feat">
+      <ul class="checks">
         <li>CAD入力が不要</li>
         <li>ティーチングが不要</li>
         <li>専用治具が不要</li>
@@ -65,16 +68,16 @@
   </div>
 </section>
 
-<section id="laser-cutting" class="alt">
+<section id="laser-cutting" class="gray">
   <div class="wrap case rev">
-    <div class="ph rv"><img src="/assets/img/laser-robot.jpg" alt="レーザーカッティング自動機。ロボットにレーザーヘッドが取り付けられている" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv"><div class="ph"><img class="natural" src="/assets/img/laser-cell4.jpg" alt="レーザーカッティング自動機。ロボットが材料を持ち、上のレーザーノズルの下で動かして切断する" loading="lazy" width="960" height="465"></div></div>
     <div class="rv">
       <p class="kicker">CASE 02 ／ 切断・レーザー加工</p>
       <h2>手切りで1個40秒の作業を12秒に。<br>レーザーカッティング自動機</h2>
       <div class="ba">
-        <figure><img src="/assets/img/laser-manual.jpg" alt="はさみで材料を手作業で切っている様子" loading="lazy" width="1200" height="676"><figcaption>手作業<b>40秒</b></figcaption></figure>
+        <figure><img src="/assets/img/laser-hand.jpg" alt="はさみで材料を手作業で切っている様子" loading="lazy" width="600" height="440"><figcaption>手作業<b>40秒</b></figcaption></figure>
         <span class="to">→</span>
-        <figure class="after"><img src="/assets/img/laser-robot.jpg" alt="ロボットとレーザーによる自動切断" loading="lazy" width="1200" height="676"><figcaption>自動機<b>12秒</b></figcaption></figure>
+        <figure class="after"><img src="/assets/img/laser-result.jpg" alt="レーザーで切り抜いたシートと部品。複雑な形でもきれいに切れている" loading="lazy" width="600" height="440"><figcaption>自動機<b>12秒</b></figcaption></figure>
       </div>
       <div class="metric"><span class="from">40秒</span><span class="arrow">→</span><span class="to">12秒</span><small>1個あたりの処理時間（約3分の1）</small></div>
       <table class="spec mt">
@@ -89,13 +92,21 @@
 
 <section id="beer">
   <div class="wrap case">
-    <div class="ph rv"><img src="/assets/img/beer-booth.jpg" alt="ビールサーブマイスターロボットのブースのイメージ図。協働ロボットがグラスにビールを注ぐ" loading="lazy" width="1200" height="676"></div>
+    <div class="media rv">
+      <div class="ph"><img src="/assets/img/beer-sushitech.jpg" alt="SusHi Tech Tokyo 2024のレセプション会場で、協働ロボットがグラスにビールを注ぎ、来場者が見ている様子" loading="lazy" width="1290" height="684"></div>
+      <p class="imgnote">SusHi Tech Tokyo 2024 レセプション（2024年5月15日、東京會舘）</p>
+      <div class="pair">
+        <figure><img src="/assets/img/beer-pour.jpg" alt="熟練者がビールサーバーからグラスにビールを注ぐ手元" loading="lazy" width="1280" height="720"><figcaption>熟練者の注ぎ</figcaption></figure>
+        <figure><img src="/assets/img/beer-booth.jpg" alt="ビールサーブマイスターロボットのブースの3Dイメージ" loading="lazy" width="1200" height="676"><figcaption>ブースの3D設計イメージ</figcaption></figure>
+      </div>
+    </div>
     <div class="rv">
       <p class="kicker">CASE 03 ／ 熟練技能の再現</p>
       <h2>習得に1年以上かかる技を、装置で再現する。<br>ビールサーブマイスターロボット</h2>
       <table class="spec">
         <tr><th>課題</th><td>ビールの注ぎ手は、グラスの選択、リンス、注ぎ、泡の調整、グラスの洗浄までを一連でこなします。熟練者の味を出せるようになるまで1年以上かかります。</td></tr>
         <tr><th>取り組み</th><td>グラスのピックアップから、リンサー、注ぎ、泡足し、泡切り、グラス外面の洗浄、提供までを、熟練者の動きを再現したロボットで行います。</td></tr>
+        <tr><th>展示・披露</th><td>FOOMA JAPAN 2023に出展。SusHi Tech Tokyo 2024のレセプション（2024年5月15日、東京會舘）で来場者にビールを提供しました。</td></tr>
         <tr><th>製造現場との関係</th><td>熟練者の手の動きと判断を分解して装置に落とし込む、という考え方は、職人の技能に頼っている製造工程の自動化にも共通します。</td></tr>
       </table>
       <p class="source">出典：<a href="https://www.quiny.co.jp/works">公式サイト 自動化例</a></p>
@@ -103,7 +114,7 @@
   </div>
 </section>
 
-<section class="alt">
+<section class="gray">
   <div class="wrap read rv" style="text-align:center;margin:0 auto">
     <h2 style="font-size:clamp(22px,3vw,30px);font-weight:900">同じような工程がありますか？</h2>
     <p style="margin-top:12px;color:var(--sub)">事例と同じ装置でなくても、考え方を応用できることがあります。対象物と現在の作業をお知らせいただければ、自動化に向くかどうかからお答えします。</p>
